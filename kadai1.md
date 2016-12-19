@@ -1,6 +1,7 @@
 #課題１レポート
+「gravure_41_mikarika.jpg」を原画像とする。
 
-ORG=imread('Lenna.png'); % 原画像の入力　
+ORG=imread('gravure_41_mikarika.jpg'); % 原画像の入力　
 
 imagesc(ORG); axis image; % 画像の表示
 
@@ -26,7 +27,7 @@ IMG2 = imresize(IMG,2,'box'); % 画像の拡大
 
 IMG = imresize(ORG,0.5); % 画像の縮小
 
-IMG2 = imresize(IMG,2,'box'); % 画像の拡大
+IMG2 = imresize(IMG,4,'box'); % 画像の拡大
 
 とする．1/4サンプリングの結果を図３に示す．
 
