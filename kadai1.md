@@ -7,7 +7,7 @@ imagesc(ORG); axis image; % 画像の表示
 
 によって，原画像を読み込み，表示した結果を図１に示す．
 
-
+![課題１](https://github.com/NishiharaYuuki/Matlab/image/kadai1-1.png)
 
 図1 原画像
 
