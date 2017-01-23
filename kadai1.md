@@ -1,6 +1,8 @@
 #課題１レポート
 「gravure_41_mikarika.jpg」を原画像とする。
 
+画像をダウンサンプリングして（標本化間隔を大きくして）表示する
+
 ORG=imread('gravure_41_mikarika.jpg'); % 原画像の入力　
 
 imagesc(ORG); axis image; % 画像の表示
