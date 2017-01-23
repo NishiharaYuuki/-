@@ -3,6 +3,7 @@
 
 閾値を4パターン設定し,閾値処理した画像を示す。
 
+
 ORG=imread('gravure_41_mikarika.jpg'); % 原画像の入力
 
 ORG= rgb2gray(ORG); % カラー画像を白黒濃淡画像へ変換
