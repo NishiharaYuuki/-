@@ -11,6 +11,8 @@ imagesc(ORG); axis image; % 画像の表示
 
 これにより、原画像を入力し、カラーをグレーに変更する。
 
+![課題１](https://github.com/NishiharaYuuki/Matlab/blob/master/image/kadai2-1.png)
+
 図１　原画像
 
 
@@ -19,6 +21,8 @@ IMG = ORG>128;
 imagesc(IMG); colormap(gray); colorbar;  axis image;
 
 これにより、２階調画像の生成を行う。
+
+![課題１](https://github.com/NishiharaYuuki/Matlab/blob/master/image/kadai2-2.png)
 
 図２　２階調画像
 
@@ -34,6 +38,8 @@ IMG = IMG0 + IMG1 + IMG2;
 imagesc(IMG); colormap(gray); colorbar;  axis image;
 
 これにより、４階調画像の生成を行う。
+
+![課題１](https://github.com/NishiharaYuuki/Matlab/blob/master/image/kadai2-3.png)
 
 図３　４階調画像
 
@@ -56,5 +62,7 @@ IMG = IMG0 + IMG1 + IMG2 + IMG3 + IMG4 + IMG5 + IMG6;
 imagesc(IMG); colormap(gray); colorbar;  axis image;
 
 これにより、８階調画像の生成を行う。
+
+![課題１](https://github.com/NishiharaYuuki/Matlab/blob/master/image/kadai2-4.png)
 
 図４　８階調画像
