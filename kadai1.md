@@ -37,7 +37,7 @@ IMG2 = imresize(IMG,4,'box'); % 画像の拡大
 
 以下、同様に1/8、1/16、1/32サンプリングを行う
 
-[課題１](https://github.com/NishiharaYuuki/Matlab/blob/master/image/kadai1-4.png)
+![課題１](https://github.com/NishiharaYuuki/Matlab/blob/master/image/kadai1-4.png)
 
 図4 1/8サンプリング
 
